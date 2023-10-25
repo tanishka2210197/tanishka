@@ -141,8 +141,8 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 40,),
             Padding(
               padding: const EdgeInsets.all(10.0),
-              child: Text("Hello,I am a Passionate Flutter learner."
-                  "Flutter is a Cross Platform App.Passionate about Flutter,"
+              child: Text("Hello,I am a Passionate Flutter Developer."
+                  "Flutter is a Cross Platform framework."
                   " I craft beautiful, functional mobile experiences.",
                 style: TextStyle(fontSize: 25,color: Colors.brown[700],fontWeight: FontWeight.bold),),
             ),
@@ -153,7 +153,7 @@ class HomeScreen extends StatelessWidget {
               width: 200,
               child: ElevatedButton(onPressed: () {
                 Navigator.push(context, MaterialPageRoute(
-                    builder: (context) => skills() ) );
+                    builder: (context) => myskill() ) );
               },
                 style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.pink[100],),
